@@ -1,0 +1,465 @@
+@font-face{
+    font-family: OpenSansReg;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family:NunitoLight;
+    src: url(../font/Nunito-Light.ttf);
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: OpenSansReg;
+    font-size: 14px;
+}
+.main{
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.banner{
+    width: 100%;
+    float: left;
+    height: 891px;
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+}
+.header{
+    height: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav {
+    padding:15px;
+
+}
+.header .logo{
+    padding: 10px;
+}
+.nav ul{
+    margin: 0;
+    padding:0;
+}
+.nav ul li{
+    list-style: none;
+    line-height: 20px;
+    padding-right: 40px;
+    float: left;
+    text-transform: uppercase;
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #a2ca28;
+}
+.slogan{
+    padding: 600px 60px;
+    color: #fff;
+    font-family: NunitoLight;
+    width: 500px;
+    text-align: end;
+}
+.slogan .first-part{
+    font-size: 40px;
+}
+.slogan .second-part{
+    font-size: 20px;
+}
+.green{
+    color: #a2ca28;
+}
+.red{
+    color:#fd634e;
+}
+.container-1{
+    width: 100%;
+    background-color: #a2ca28;
+}
+.feature{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.feature .item{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 40px;
+    line-height: 40px;
+    width: 25%;
+}
+.feature .item .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.feature .item .title{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.feature .item .intro{
+    line-height: 30px;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+.feature .item a{
+    color: #fff;
+    text-decoration: none;
+}
+.feature .item a:hover{
+    text-transform: uppercase;
+}
+.content-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-1 .item-small{
+    width:34%;
+    background-color: #fff;
+    height: 394px;
+    text-align: center;
+    padding: 40px;
+}
+.content-1 .item-big{
+    width: 66%;
+    height: 394px;
+    text-align: center;
+    padding: 40px;
+}
+.item-2{
+    background: url(../images/photo-1.png) no-repeat 0 0;
+}
+.item-3{
+    background: url(../images/photo-2.png) no-repeat 0 0;
+}
+.container-2{
+    width:100%;
+    background-color: #fd634e;
+}
+.content-2{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.content-2 .item-small{
+    width:34%;
+    background-color: #fff;
+    height: 359px;
+    text-align: center;
+    padding: 40px;
+
+}
+.content-2 .item-big{
+    width: 66%;
+    height: 359px;
+    text-align: center;
+    padding: 40px;
+}
+.item-5{
+    background: url(../images/photo-3.png) no-repeat 0 0;
+}
+.item-6{
+    background: url(../images/photo-4.png) no-repeat 0 0;
+}
+.item-9{
+    background: url(../images/photo-5.png) no-repeat 0 0;
+}
+.item-10{
+    background: url(../images/photo-6.png) no-repeat 0 0;
+}
+.content-1 .red, .content-2 .red{
+    color: #fd634e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.content-1 .green, .content-2 .green{
+    color: #a2ca28;
+    font-size: 35px;
+}
+.content-1 .text, .content-2 .text{
+    color: #656e74;
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 20px;
+}
+.item-green{
+    background-color: #a2ca28!important;
+    color: #fff!important;
+    text-align: left!important;
+}
+.item-green .title {
+    font-size: 35px;
+}
+.item-green .text{
+    font-size: 14px;
+    color: #fff;
+}
+.item-green strong{
+    font-size: 14px;
+}
+.item-green img{
+    float: right;
+}
+.item-big p, .item-small p{
+    margin: 0;
+}
+.item-big a, .item-small a{
+    color: #a2ca28;
+}
+.item-big a:hover, .item-small a:hover{
+    color: #fd634e;
+}
+.item-white{
+    background-color: #fff;
+    text-align: left!important;
+}
+.banner-2{
+    background: url(../images/banner-footer.png) no-repeat 0 0;
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: OpenSansReg;
+}
+.banner-2 .slogan-2{
+    color: #fff;
+    line-height: 20px;
+    width: 700px;
+}
+
+
+.banner-2 .slogan-2 .part-1{
+    font-size: 45px;
+}
+.banner-2 .slogan-2 .part-2{
+    font-size: 16px;
+}
+.footer{
+    background-color: #0d1119;
+    width: 100%;
+    height: 768px;
+}
+.footer .info{
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.col-resources{
+    width: 32%;
+}
+.col-about{
+    width: 38%;
+}
+.name{
+    color: #fff;
+}
+.detail{
+    color: rgba(255,255,255,0.7);
+    line-height: 20px;
+}
+.col-icon{
+   width: 21%;
+}
+#input-name{
+    width: 203px;
+    height: 50px;
+}
+#input-email{
+    width: 345px;
+    height: 50px;
+}
+.submit button{
+    width: 184px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#a2ca28;
+}
+.submit button a{
+    color: #fff;
+    text-decoration: none;
+}
+.submit{
+    text-align: end;
+    margin-bottom: 100px;
+}
+
+.layout{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1em;
+    color: #fff;
+}
+.item{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item1{
+    background-image: linear-gradient(#b56f6f,#ccf136,#366ff1);
+}
+.item2{
+    background-color: #b56f6f;
+}
+.item3 {
+    background-color: aqua;
+    box-shadow: 5px 5px 4px #93e1de;
+}
+.item4{
+    background-color: rgba(0,0,0,0.4);
+}
+.item5{
+    grid-column: 2/5;
+    background-image: linear-gradient(to right,#774848,#b56f6f);
+}
+.item5 p{
+    color: #b740bf;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+}
+.item6{
+    background-image: linear-gradient(to bottom left,red,yellow,green);
+}
+.item7{
+    background-image: linear-gradient(to top right,#bcb5b5,#547da7);
+}
+.item7 p{
+    color: #000;
+    text-shadow: 2px 2px 5px #333;
+}
+.item8{
+    background-image: radial-gradient(#e5e80d,#c27819,#c25d19);
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slogan{
+        padding: 300px 70px;
+        width: 100%;
+    }
+    .slogan .first-part{
+        font-size: 24px;
+    }
+    .slogan .secon-part{
+        font-size: 15px;
+    font-weight: bold;
+    }
+    .feature{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature .item{
+        width: 100%;
+    }
+    .feature .item .intro{
+        display: none;
+    }
+    .content-1 .item-small{
+        width: 100%;
+    }
+    .content-1 .item-big{
+        width: 100%;
+    }
+    .content-2 .item-small{
+        width: 100%;
+    }
+    .content-2 .item-big{
+        width: 100%;
+    }
+    .banner-2 .slogan-2{
+        width: 100%;
+        font-size: 15px;
+    }
+    .banner-2 .slogan-2 .part-1{
+        font-size: 20px;
+    }
+    .banner-2 .slogan-2 .part-2{
+        font-size: 15px;
+    }
+    .footer{
+        padding-bottom: 50px;
+    }
+    #input-name{
+        width: 100%;
+    }
+    #input-email{
+        width: 100%;
+    }
+    .submit button{
+        width: 100%;
+    }
+} /*smartphone*/
+@media (max-width: 575.98px) {
+    .slogan{
+        padding: 300px 70px;
+    width: 100%;
+    }
+    .slogan .first-part{
+        font-size: 24px;
+    }
+    .slogan .secon-part{
+        font-size: 15px;
+    font-weight: bold;
+    }
+    .feature{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature .item{
+        width: 100%;
+    }
+    .feature .item .intro{
+        display: none;
+    }
+    .content-1 .item-small{
+        width: 100%;
+    }
+    .content-1 .item-big{
+        width: 100%;
+    }
+    .content-2 .item-small{
+        width: 100%;
+    }
+    .content-2 .item-big{
+        width: 100%;}
+    .banner-2 .slogan-2{
+            width: 100%;
+        }
+    .banner-2 .slogan-2 .part-1{
+        font-size: 20px;
+    }
+    .banner-2 .slogan-2 .part-2{
+        font-size: 15px;
+    }
+    .footer{
+        padding-bottom: 50px;
+    }
+    #input-name{
+        width: 100%;
+    }
+    #input-email{
+        width: 100%;
+    }
+    .submit button{
+        width: 100%;
+    }
+    }
